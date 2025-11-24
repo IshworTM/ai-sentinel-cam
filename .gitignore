@@ -1,2 +1,8 @@
+#.env
 .env
-*_venv/
+
+#Virtual Environment
+*venv*
+
+#Test Directory
+test/
