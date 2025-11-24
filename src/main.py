@@ -21,7 +21,7 @@ def alert_user(
     send_notification: bool = False,
     push: bool = False,
 ):
-    Thread(target=playsound, args=("./sound/alert.wav",), name="Ding Dong").start()
+    Thread(target=playsound, args=("../sound/alert.wav",), name="Ding Dong").start()
     title = "Face Detected 👀"
     message = f"Alert!! Someone is at the door."
     if send_email:
@@ -127,5 +127,5 @@ if __name__ == "__main__":
     send_notification = True
     send_alert = True
     push = True
-    load_dotenv("./.env")
+    load_dotenv("../.env")
     main(send_email, send_notification, send_alert, push)
