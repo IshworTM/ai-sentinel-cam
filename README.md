@@ -34,8 +34,9 @@ Make sure you've got these packages installed:
 
 -   Python 3.10+
 -   OpenCV (`cv2`)
+-   `setuptools`
 -   `face_recognition`
--   `playsound`
+-   `playsound3`
 -   `plyer`
 -   `pushbullet.py`
 -   `python-dotenv`
@@ -50,7 +51,7 @@ source <venv_path>/bin/activate
 Then, install the requirements with:
 
 ``` bash
-pip install opencv-python face_recognition playsound plyer pushbullet.py python-dotenv
+pip install opencv-python setuptools face_recognition playsound3 plyer pushbullet.py python-dotenv
 ```
 
 > ⚠️ Note: the above packages may require extra system dependencies
