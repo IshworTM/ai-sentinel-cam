@@ -1,7 +1,7 @@
 import os
 from threading import Thread
 from cv2 import VideoCapture, imshow, waitKey, imwrite, imencode, typing
-from playsound import playsound
+from playsound3 import playsound
 from face_recognition import face_locations
 from smtplib import SMTP
 from socket import gaierror
